@@ -91,7 +91,7 @@ const TechStackNew = () => {
 
       {/* Content */}
       <div className="techstack-content">
-        <h2>Tech Stack</h2>
+        <h2>Technologien</h2>
         
         <div className="techstack-pyramid">
           {techStack.map((row, rowIndex) => (

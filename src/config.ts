@@ -1,106 +1,101 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Shekib",
+        fullName: "Shekib Hussain Khil",
+        title: "IT-Spezialist für Automatisierungssysteme",
+        description: "IT-Spezialist für Automatisierungssysteme mit Erfahrung in SPS-Programmierung, Webentwicklung, Softwareentwicklung, SQL und Netzwerken."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        email: "kontakt@shekib.me",
+        location: "Monheim am Rhein"
     },
     about: {
-        title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        title: "Über mich",
+        description: "Ich heiße Shekib Hussain Khil, Fachinformatiker für Anwendungsentwicklung mit Fokus auf Automatisierungstechnik. Ich entwickle responsive Firmenwebseiten und Kundenportale mit HTML, CSS, JavaScript und AWS und setze Backend- sowie Datenbankanbindungen für 5 bis 10 Kundenprojekte um. Self-Service-Portale haben Kundenabläufe um etwa 70 % effizienter gemacht. Meine Schwerpunkte sind zurzeit Web- und Softwareentwicklung, SQL und Netzwerke."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Webagentur (Co-Founder)",
+            company: "Kaizen Webworks",
+            period: "Nov 2025 – Heute",
+            location: "Monheim am Rhein",
+            description: "Nov 2025 – Heute · Entwicklung responsiver Firmenwebseiten und Kundenportale mit HTML, CSS, JavaScript und AWS. Backend-Implementierung und Datenbankanbindungen für 5–10 Kundenprojekte. Optimierung von Kundenabläufen durch Self-Service-Portale (ca. 70 % Effizienzsteigerung).",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Entwicklung responsiver Firmenwebseiten und Kundenportale",
+                "Backend-Implementierung und Datenbankanbindungen",
+                "Optimierung von Kundenabläufen durch Self-Service-Portale"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["HTML", "CSS", "JavaScript", "AWS"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Ausbildung zum Fachinformatiker für Anwendungsentwicklung",
+            company: "ProLeiT by Schneider Electric",
+            period: "Aug 2023 – Jan 2026",
+            location: "Deutschland",
+            description: "Aug 2023 – Jan 2026 · Prozessvisualisierung mit Simatic Step 7 / SPS und Test von Anlagenfunktionen. Parametrierung im Automatisierungssystem und Mitwirkung an internen Kundenportalen.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Prozessvisualisierung (Simatic Step 7 / SPS)",
+                "Test von Anlagenfunktionen",
+                "Parametrierung im Automatisierungssystem",
+                "Mitwirkung an internen Kundenportalen"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Simatic Step 7", "SPS", "Kundenportale"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            position: "Verkäufer (Minijob)",
+            company: "Papperts Bäckerei",
+            period: "Nov 2021 – Jul 2023",
+            location: "Deutschland",
+            description: "Nov 2021 – Jul 2023 · Kundenbedienung, Kassiertätigkeit, Brötchen backen und Brötchen belegen.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Kundenbedienung",
+                "Kassiertätigkeit",
+                "Brötchen backen und belegen"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: []
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            position: "Fachinformatiker für Anwendungsentwicklung",
+            company: "Heinrich-Hertz-Berufskolleg Düsseldorf",
+            period: "Aug 2023 – Jan 2026",
+            location: "Düsseldorf",
+            description: "Aug 2023 – Jan 2026 · Schwerpunkte: Webentwicklung (Java), Softwareentwicklung (Python), SQL und Netzwerke.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Webentwicklung (Java)",
+                "Softwareentwicklung (Python)",
+                "SQL und Netzwerke"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
+            technologies: ["Java", "Python", "SQL", "Netzwerke"]
         },
         {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
+            position: "Fachhochschulreife",
+            company: "Fachoberschule Marktheidenfeld",
+            period: "Sep 2021 – Jul 2022",
+            location: "Marktheidenfeld",
+            description: "Sep 2021 – Jul 2022 · Fachhochschulreife an der Fachoberschule Marktheidenfeld.",
+            responsibilities: [],
+            technologies: []
         },
         {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            position: "Mittlerer Schulabschluss",
+            company: "Städtische Wirtschaftsschule Würzburg",
+            period: "Sep 2019 – Jul 2021",
+            location: "Würzburg",
+            description: "Sep 2019 – Jul 2021 · Mittlerer Schulabschluss an der Städtischen Wirtschaftsschule Würzburg.",
+            responsibilities: [],
+            technologies: []
         }
     ],
-    projects: [
+    projects: [] as {
+        id: number;
+        title: string;
+        category: string;
+        technologies: string;
+        image: string;
+        description: string;
+        link: string;
+    }[],
+    /*projects: [
         {
             id: 1,
             title: "Drishti",
@@ -164,29 +159,27 @@ export const config = {
             description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
             link: ""
         }
-    ],
+    ], */
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "kontakt@shekib.me",
+        phone: "+49 176 44767986",
+        address: "Tegelerstraße 8, 40789 Monheim",
+        linkedin: "https://www.linkedin.com/in/shekib-hussainkhil-125b85326/",
+        facebook: "https://m.facebook.com/ahmed.shekib.56/",
+        instagram: "https://www.instagram.com/shekib100523/"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "PROGRAMMIERUNG",
+            description: "Sprachen für Software- und Webentwicklung",
+            details: "C#, Java, Python, HTML, CSS, JavaScript und SQL.",
+            tools: ["C#", "Java", "Python", "HTML", "CSS", "JavaScript", "SQL"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "TOOLS & KOMPETENZEN",
+            description: "Frameworks & Tools · KI & Data Science · Sprachen",
+            details: "Frameworks & Tools: WPF, MVVM, Flask, .NET, Git, VS Code, SQL Server. KI & Data Science: Prompt Engineering, Generative AI, Machine Learning. Sprachen: Deutsch (fließend), Englisch (fließend), Dari (Muttersprache), Pashtu (fließend), Hindi/Urdu (Anfänger).",
+            tools: ["WPF", "MVVM", "Flask", ".NET", "Git", "VS Code", "SQL Server", "Prompt Engineering", "Generative AI", "Machine Learning"]
         }
     }
 };
-
-

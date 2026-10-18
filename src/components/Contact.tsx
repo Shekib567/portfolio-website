@@ -62,28 +62,23 @@ const Contact = () => {
         <h3>{config.developer.fullName}</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Email</h4>
+            <h4>E-Mail</h4>
             <p>
               <a href={`mailto:${config.contact.email}`} data-cursor="disable">
                 {config.contact.email}
               </a>
             </p>
-            <h4>Location</h4>
+            <h4>Adresse</h4>
             <p>
-              <span>{config.social.location}</span>
+              <span>{config.contact.address}</span>
+            </p>
+            <h4>Telefon</h4>
+            <p>
+              <span>{config.contact.phone}</span>
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
-            <a
-              href={config.contact.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
+            <h4>Social Media</h4>
             <a
               href={config.contact.linkedin}
               target="_blank"
@@ -91,16 +86,7 @@ const Contact = () => {
               data-cursor="disable"
               className="contact-social"
             >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
+              LinkedIn <MdArrowOutward />
             </a>
             <a
               href={config.contact.facebook}
@@ -123,7 +109,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>{config.developer.fullName}</span>
+            Gestaltet und entwickelt <br /> von <span>{config.developer.fullName}</span>
             </h2>
             <h5>
               <MdCopyright /> {new Date().getFullYear()}
