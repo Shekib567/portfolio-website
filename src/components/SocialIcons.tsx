@@ -1,14 +1,14 @@
 import {
-  FaGithub,
   FaInstagram,
   FaLinkedinIn,
-  FaXTwitter,
+  FaWhatsapp,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
 import HoverLinks from "./HoverLinks";
 import { config } from "../config";
+import { Link } from "react-router-dom";
 
 const SocialIcons = () => {
   useEffect(() => {
@@ -61,32 +61,32 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href={config.contact.github} target="_blank" rel="noopener noreferrer">
-            <FaGithub />
-          </a>
-        </span>
-        <span>
-          <a href={config.contact.linkedin} target="_blank" rel="noopener noreferrer">
+          <a href={config.contact.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href={config.contact.twitter} target="_blank" rel="noopener noreferrer">
-            <FaXTwitter />
+          <a
+            href={`https://wa.me/${config.contact.phone.replace(/\D/g, "")}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+          >
+            <FaWhatsapp />
           </a>
         </span>
         <span>
-          <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
+          <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <Link className="resume-button" to="/resume" data-cursor="disable">
         <HoverLinks text="LEBENSLAUF" />
-        <span>
+        <span aria-hidden="true">
           <TbNotes />
         </span>
-      </a>
+      </Link>
     </div>
   );
 };

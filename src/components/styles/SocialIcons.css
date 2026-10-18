@@ -47,9 +47,10 @@
   position: absolute;
   z-index: 99;
   display: flex;
+  align-items: center;
   gap: 5px;
   bottom: 40px;
-  right: 0;
+  right: 20px;
   width: auto;
   text-wrap: nowrap;
   letter-spacing: 4px;
@@ -58,19 +59,22 @@
   font-weight: 600;
   color: #5e5e5e;
   cursor: pointer;
-  transition: 0.5s;
+  transition: color 0.5s;
   transform-origin: left bottom;
   transform: translateX(100%) rotateZ(-90deg);
 }
 .resume-button:hover {
   color: #fff;
 }
-div.resume-button span {
+.resume-button span {
   color: #fff;
   font-size: 17px;
-  margin-top: -1px;
   display: flex;
   align-items: center;
+}
+.resume-button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
 }
 .check-line {
   position: fixed;
@@ -96,8 +100,7 @@ div.resume-button span {
     font-size: 20px;
     line-height: 20px;
   }
-  div.resume-button span {
+  .resume-button span {
     font-size: 23px;
-    margin-top: -1.5px;
   }
 }

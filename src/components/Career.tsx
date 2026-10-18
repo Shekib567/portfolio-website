@@ -1,5 +1,6 @@
 import "./styles/Career.css";
 import { config } from "../config";
+import { Link } from "react-router-dom";
 
 const getDisplayYear = (period: string) => {
   return period.match(/\b\d{4}\b/)?.[0] ?? period;
@@ -29,6 +30,13 @@ const Career = () => {
               <p>{exp.description}</p>
             </div>
           ))}
+          <Link
+            to="/resume"
+            className="career-resume-link"
+            data-cursor="disable"
+          >
+            Vollständigen Lebenslauf ansehen →
+          </Link>
         </div>
       </div>
     </div>

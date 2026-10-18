@@ -52,6 +52,23 @@
   line-height: 20px;
 }
 
+.career-resume-link {
+  align-self: center;
+  margin: 10px 0 0;
+  padding: 12px 20px;
+  border: 1px solid var(--accentColor);
+  border-radius: 8px;
+  color: var(--accentColor);
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.career-resume-link:hover {
+  background: var(--accentColor);
+  color: #17121d;
+}
+
 .career-info-in {
   display: flex;
   width: 40%;
@@ -238,6 +255,11 @@
 @media only screen and (max-width: 600px) {
   .career-info {
     margin: 0;
+  }
+
+  .career-resume-link {
+    align-self: flex-start;
+    margin-left: 5%;
   }
 
   .career-section h2 {
