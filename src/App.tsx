@@ -1,7 +1,5 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/react";
 import "./App.css";
 
 const CharacterModel = lazy(() => import("./components/Character"));
@@ -49,8 +47,6 @@ const App = () => {
           }
         />
       </Routes>
-      <Analytics />
-      <SpeedInsights />
     </BrowserRouter>
   );
 };
