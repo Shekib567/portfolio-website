@@ -96,7 +96,8 @@
   .landing-h2-info {
     position: static !important;
     display: block;
-    width: auto;
+    width: 100% !important;
+    max-width: 100%;
     margin: 0 !important;
     font-size: 20px !important;
     line-height: 1.5 !important;
@@ -105,6 +106,15 @@
     height: auto !important;
     transform: none !important;
     /* Remove any transforms */
+  }
+
+  .landing-info .split-h2,
+  .landing-info .split-line {
+    white-space: normal !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: visible;
+    max-width: 100%;
   }
 
   /* Specific styling for the distinct parts */
